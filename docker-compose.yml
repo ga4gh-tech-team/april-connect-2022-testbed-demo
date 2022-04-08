@@ -12,7 +12,7 @@ services:
     ports:
       - "4500:4500"
   testbed-ui:
-    image: ga4gh/ga4gh-testbed-ui:0.1.0-connect
+    image: ga4gh/ga4gh-testbed-ui:0.1.1-connect
     hostname: testbed-ui.ga4gh.org
     ports:
       - "80:80"
