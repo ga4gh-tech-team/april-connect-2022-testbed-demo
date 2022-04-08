@@ -1,0 +1,3 @@
+testbedApiConfig:
+    databaseProps:
+        url: jdbc:sqlite:/db/testbed.db

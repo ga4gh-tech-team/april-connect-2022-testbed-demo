@@ -5,6 +5,10 @@ services:
   testbed-api:
     image: ga4gh/ga4gh-testbed-api:0.1.0
     hostname: testbed-api.ga4gh.org
+    volumes:
+      - "./config:/config"
+      - "./db:/db"
+    command: -c /config/config.yml
     ports:
       - "4500:4500"
   testbed-ui:

@@ -33,7 +33,7 @@ test-refget-local:
 .PHONY: test-cram-reference-registry
 test-cram-reference-registry:
 	@refget-compliance report \
-		--server http://localhost:8888/ \
+		--server https://www.ebi.ac.uk/ena/cram/ \
 		--no-web \
 		--submit \
 		--submit-id 483382e9-f92b-466d-9427-154d56a75fcf \
