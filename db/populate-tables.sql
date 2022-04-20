@@ -81,7 +81,9 @@ insert into specification_testbed values
     (1, 'rnaget', 'rnaget-compliance');
 insert into specification_platform values
     (0, 'refget', 'org.ga4gh.refget.local'),
-    (1, 'refget', 'uk.ac.ebi.ena.cram');
+    (1, 'refget', 'uk.ac.ebi.ena.cram'),
+    (2, 'rnaget', 'org.ga4gh.rnaget.starterkit');
+
 
 insert into report_series values (
     "1edb5213-52a2-434f-a7b8-b101fea8fb30",
@@ -95,6 +97,12 @@ insert into report_series values (
     '463bdadca28c206693339fcc5465c9885395a7e03deff93ce1e851c5561bae36', /* plaintext token is l0HiRbbpjVDKc6k3tQ2skzROB1oAP2IV */
     'refget-compliance',
     'uk.ac.ebi.ena.cram'
+),(
+    "4c3f6dc0-aea2-4e6b-ba4d-f8e1514cb9cc",
+    '4Crbn7IM7gpur3NF0u5XQKhWCxdcRiyX',
+    '86c5fd94752a126f3ed2ee6fbe9958a7a97fcd41f627802e9998b837a9da60ba', /* plantext token is ozX0aE9PTtYEkmEPeZmOS53igw6Atyl4 */
+    'rnaget-compliance',
+    'org.ga4gh.rnaget.starterkit'
 );
 
 /* GENERATES A SINGLE REPORT FOR A RUN OF REFGET COMPLIANCE AGAINST LOCAL REFGET */
